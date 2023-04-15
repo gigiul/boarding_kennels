@@ -8,6 +8,8 @@ import {
     Card,
 } from "@material-tailwind/react";
 
+import Logo from "../assets/logo_dog.png";
+
 export default function Example() {
     const [openNav, setOpenNav] = React.useState(false);
 
@@ -68,7 +70,7 @@ export default function Example() {
             <Navbar className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <div className="flex gap-2 justify-center text-center mr-4 cursor-pointer">
-                        <img src='/logo_dog.png' alt="logo" width={50} height={50} />
+                        <img src={Logo} alt="logo" width={50} height={50} />
                         <Typography
                             as="a"
                             href="#"
