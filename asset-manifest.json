@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/boarding_kennels/static/css/main.bf8cbf2a.css",
+    "main.js": "/boarding_kennels/static/js/main.d3526052.js",
+    "static/js/787.6a2e1ac8.chunk.js": "/boarding_kennels/static/js/787.6a2e1ac8.chunk.js",
+    "static/media/logo.svg": "/boarding_kennels/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/boarding_kennels/index.html",
+    "main.bf8cbf2a.css.map": "/boarding_kennels/static/css/main.bf8cbf2a.css.map",
+    "main.d3526052.js.map": "/boarding_kennels/static/js/main.d3526052.js.map",
+    "787.6a2e1ac8.chunk.js.map": "/boarding_kennels/static/js/787.6a2e1ac8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf8cbf2a.css",
+    "static/js/main.d3526052.js"
+  ]
+}
