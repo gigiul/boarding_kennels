@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './Pages/Home';
 import Servizi from './Pages/Servizi';
 import Gallery from './Pages/Gallery';
+import Contatti from './Pages/Contatti';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Home />
       <Servizi />
       <Gallery />
+      <Contatti />
+      <Footer />
     </div>
   );
 }

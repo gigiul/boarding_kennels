@@ -26,7 +26,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-semibold text-xl"
             >
-                <a href="#" className="flex items-center">
+                <a href="#" className="flex items-center hover:underline">
                     Home
                 </a>
             </Typography>
@@ -36,7 +36,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-semibold text-xl"
             >
-                <a href="#" className="flex items-center">
+                <a href="#" className="flex items-center hover:underline">
                     Servizi
                 </a>
             </Typography>
@@ -46,7 +46,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-semibold text-xl"
             >
-                <a href="#" className="flex items-center">
+                <a href="#" className="flex items-center hover:underline">
                     Galleria
                 </a>
             </Typography>
@@ -56,7 +56,7 @@ export default function Example() {
                 color="blue-gray"
                 className="p-1 font-semibold text-xl"
             >
-                <a href="#" className="flex items-center">
+                <a href="#" className="flex items-center hover:underline">
                     Contatti
                 </a>
             </Typography>
