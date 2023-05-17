@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div id='home'>
+        <div id='home' className=''>
             <div style={{
                 backgroundImage: `url(${process.env.PUBLIC_URL}/home_dog.webp)`,
             }} className='flex m-auto justify-center h-screen bg-cover bg-center opacity-60 shadow-2xl	  '>
