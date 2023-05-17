@@ -18,6 +18,10 @@ const Gallery = () => {
           className=" text-white bg-blue-500 flex justify-center items-center text-center w-48 m-auto hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
           ripple={false}
           fullWidth={true}
+          onClick={(e) => {
+            e.preventDefault();
+            window.location.href='#contact';
+            }}
         >
           <a href='#contact'>Prenota</a>
         </Button>

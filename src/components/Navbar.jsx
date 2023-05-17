@@ -61,6 +61,10 @@ export default function MyNavbar() {
                             variant="gradient"
                             size="sm"
                             className="hidden lg:inline-block"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='#contact';
+                                }}
                         >
                             <a href="#contact">Prenota</a>
                         </Button>
@@ -105,7 +109,10 @@ export default function MyNavbar() {
                 </div>
                 <MobileNav open={openNav}>
                     {navList}
-                    <Button variant="gradient" size="sm" fullWidth className="mb-2">
+                    <Button variant="gradient" size="sm" fullWidth className="mb-2"                     onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='#contact';
+                                }}>
                         <a onClick={() => setOpenNav(false)} href="#contact">Prenota</a>
                     </Button>
                 </MobileNav>
