@@ -32,12 +32,12 @@ export const navbar = [
         title: 'Home',
     },
     {
-        id: 'services',
-        title: 'Servizi',
-    },
-    {
         id:'gallery',
         title: 'Galleria',
+    },
+    {
+        id: 'services',
+        title: 'Servizi',
     },
     {
         id: 'contact',
