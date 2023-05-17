@@ -62,7 +62,7 @@ export default function MyNavbar() {
                             size="sm"
                             className="hidden lg:inline-block"
                         >
-                            <span>Prenota</span>
+                            <a href="#contact">Prenota</a>
                         </Button>
                         <IconButton
                             variant="text"
@@ -106,7 +106,7 @@ export default function MyNavbar() {
                 <MobileNav open={openNav}>
                     {navList}
                     <Button variant="gradient" size="sm" fullWidth className="mb-2">
-                        <span>Prenota</span>
+                        <a onClick={() => setOpenNav(false)} href="#contact">Prenota</a>
                     </Button>
                 </MobileNav>
             </Navbar>
