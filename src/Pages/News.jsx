@@ -9,7 +9,7 @@ const News = () => {
     const { id } = useParams();
     console.log("🚀 ~ file: News.jsx:9 ~ News ~ id:", id)
 
-    const { loading, error, events } = useFetch(`https://boarding-kennels-api.onrender.com/api/events`);
+    const { loading, error, events } = useFetch(`https://boarding-kennels-strapi.onrender.com/api/events`);
     if (loading) return <p> Loading... </p>;
     if (error) return <p> Error :( </p>;
     console.log("events", events)
