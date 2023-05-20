@@ -4,6 +4,7 @@ import Servizi from './Servizi.jsx';
 import Gallery from './Gallery';
 import Contatti from './Contatti';
 import Footer from '../components/Footer.jsx';
+import News from './News';
 
 export {
     Navbar,
@@ -12,4 +13,5 @@ export {
     Gallery,
     Contatti,
     Footer,
+    News,
 }

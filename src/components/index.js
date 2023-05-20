@@ -4,5 +4,6 @@ import Form from './Form';
 import Navbar from './Navbar';
 import Popover from './Popover';
 import Tab from './Tab';
+import NewsCarousel from './Carousel';
 
-export { Card, Footer, Form, Navbar, Popover, Tab}
+export { Card, Footer, Form, Navbar, Popover, Tab, NewsCarousel}

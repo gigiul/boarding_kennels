@@ -5,6 +5,7 @@ import {
   Gallery,
   Contatti,
   Footer,
+  News,
 } from './Pages'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <Gallery />
+      <News />
       <Servizi />
       <Contatti />
       <Footer />
