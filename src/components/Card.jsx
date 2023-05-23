@@ -13,7 +13,7 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 export default function Example({ data }) {
 
     return (
-        <Card color="blue" variant="gradient" className="w-full max-w-[24rem] lg:h-[40rem] p-8 shadow-2xl" >
+        <Card color="blue" variant="gradient" className="w-full max-w-[24rem] lg:h-[54rem] p-4 shadow-2xl" >
             <CardHeader
                 floated={false}
                 shadow={false}
@@ -23,7 +23,7 @@ export default function Example({ data }) {
                 <Typography
                     variant="small"
                     color="white"
-                    className="font-semibold uppercase"
+                    className="font-semibold uppercase text-xl italic"
                 >
                     {data.title}
                 </Typography>
@@ -33,7 +33,7 @@ export default function Example({ data }) {
                     className="mt-6 flex justify-center gap-1 text-7xl font-normal"
                 >
                     {
-                        data?.price?.value === 'personalizzato' ? (
+                        data?.price?.value === 'X?' ? (
                             <>
                                 <Tooltip
                                     content="Il prezzo è personalizzato in base alle esigenze specifiche del cane."
@@ -50,7 +50,7 @@ export default function Example({ data }) {
 
                             </>
                         ) :
-                            (<><span className="mt-2 text-4xl">€</span><p>{data?.price?.value}</p><span className="self-end mb-1 text-4xl">/gg</span>
+                            (<><span className="mt-2 text-3xl">€</span><p>{data?.price?.value}</p><span className="self-end mb-1 text-3xl">/gg</span>
                             </>)
                     }
                 </Typography>
@@ -62,7 +62,7 @@ export default function Example({ data }) {
                             <span className="rounded-full border border-white/20 bg-white/20 p-1">
                                 <CheckIcon strokeWidth={2} className="h-3 w-3" />
                             </span>
-                            <Typography className={`font-normal ${keyName > 5 ? 'underline font-bold' : ''}`}>{data?.services[keyName]}</Typography>
+                            <Typography className={`font-normal text-start`}>{data?.services[keyName]}</Typography>
                         </li>
                     ))}
                 </ul>

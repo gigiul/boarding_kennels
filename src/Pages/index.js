@@ -5,6 +5,8 @@ import Gallery from './Gallery';
 import Contatti from './Contatti';
 import Footer from '../components/Footer.jsx';
 import News from './News';
+import Login from './Login';
+import Dashboard from './Dashboard';
 
 export {
     Navbar,
@@ -14,4 +16,6 @@ export {
     Contatti,
     Footer,
     News,
+    Login,
+    Dashboard,
 }

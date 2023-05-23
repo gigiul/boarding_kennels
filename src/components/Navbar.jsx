@@ -8,7 +8,7 @@ import {
     Card,
 } from "@material-tailwind/react";
 import { navbar } from "../constants";
-import Logo from "../assets/logo_dog.png";
+import Logo from "../assets//logo/logoSVG.svg";
 
 export default function MyNavbar() {
     const [openNav, setOpenNav] = React.useState(false);
