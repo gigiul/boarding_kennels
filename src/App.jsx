@@ -9,7 +9,7 @@ import { MessageProvider } from './context/newsContext';
 function App() {
 
   const { loading, error, user } = useUserContext();
-  const socketUrl = 'ws://boarding-kennels-backend.onrender.com';
+  const socketUrl = 'wss://boarding-kennels-backend.onrender.com';
 
   const [message, setMessage] = useState(null);
 
