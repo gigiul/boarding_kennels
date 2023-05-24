@@ -32,12 +32,24 @@ export const navbar = [
         title: 'Home',
     },
     {
+        id:'about',
+        title: 'Chi sono',
+    },
+/*     {
         id: 'gallery',
         title: 'Galleria',
+    }, */
+    {
+        id: 'news',
+        title: 'News',
     },
     {
         id: 'services',
         title: 'Servizi',
+    },
+    {
+        id: 'rules',
+        title: 'Regole',
     },
     {
         id: 'contact',
@@ -76,7 +88,7 @@ export const cards = [
             "6": "Documentazione quotidiana delle attività su Instagram o su richiesta",
             "7": "Passeggiate su richiesta in un ambiente immerso nella natura",
             "8": "Le passeggiate sono documentate per farvi sentire vicini al vostro cane"
-          }
+        }
     },
     {
         title: "Servizi extra",
@@ -96,8 +108,8 @@ export const services = [
         description: "I cani non verranno chiusi ore e ore in dei box permettendogli soltanto una passeggiatina di cinque minuti ma verranno accolti in un ambiente comune con attività scelte in base alle abituditi: se un cane predilige giochi mentali (ricerca del gioco nascosto in giardino, 'rompicapo' con gratificazione finale, esercizi base di dog obedience..ecc..) verrà intrattenuto in modo diverso dal cane che predilige lo sport ( paseggiate nei campi circostanti, rincorrere palline o nastri, tira e molla ecc..)"
     },
     {
-       title: "Una casetta accogliente per il tuo amico a quattro zampe",
-       description: " Infatti la struttura è predisposta come una casetta: c'è una saletta interna riscaldata in inverno e refrigerata in estate con un giardino totalmente recintato e sicuro in modo tale da far sentire a proprio agio il cagnolino e lasciare a lui la scelta se stare all'interno o all'esterno, come in una qualsiasi abitazione casalinga."
+        title: "Una casetta accogliente per il tuo amico a quattro zampe",
+        description: " Infatti la struttura è predisposta come una casetta: c'è una saletta interna riscaldata in inverno e refrigerata in estate con un giardino totalmente recintato e sicuro in modo tale da far sentire a proprio agio il cagnolino e lasciare a lui la scelta se stare all'interno o all'esterno, come in una qualsiasi abitazione casalinga."
     },
     {
         title: "Notte tranquilla e pasti separati: comfort senza sentirsi rinchiusi",
@@ -114,7 +126,7 @@ export const services = [
     {
         title: "Documentazione giornaliera e aggiornamenti su Instagram per seguirti",
         description: " Su richiesta del proprietario verrà offerto un servizio di documentazione quotidiana con resoconto giornata, video, foto o videochiamate. Inoltre la pagina instagram sarà sempre aggiornata con nuove foto e storie in modo tale da seguire le attività dei vostri piccoli.",
-    }, 
+    },
     {
         title: "Assistenza e somministrazione di medicinali personalizzati",
         description: "Servizio di somministrazione di medicinali e cure (indicate dal proprietario) a cani che hanno problematiche o patologie."
@@ -134,5 +146,23 @@ export const services = [
     {
         title: "La casetta nel verde, una struttura sicura e regolamentata per la tranquillità di tutti",
         description: "La casetta nel verde è una attività completamente a norma (assicurazione, norme igieniche e sanitarie burocraticamente conformi, cani controllati muniti di vaccinazioni, antiparassitari ecc...) e gestita da personale in possesso di attestati di formazione."
+    }
+]
+
+export const rules = [
+    {
+        title: "Regole generali",
+        description: "È richiesto il proprio cibo. Obbligatorii microchip e vaccinazioni. Trattamento antiparassitario.",
+        longDescription: "Ogni cane ha la propria tipologia di alimentazione quindi sarà richiesto il proprio cibo. Ogni cane dovrà essere in possesso del microchip e libretto delle vaccinazioni obbligatorie in vigore (e non scadute). Ogni cane, principalmente nella stagione estiva, dovrà essere trattato con antiparassitario."
+    },
+    {
+        title: "Entrata",
+        description: "L'ingresso è consentito dalle 7:30 alle 9:30. L'orario può essere flessibile su richiesta.",
+        longDescription: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina (la giornata di asilo precedente alla prima nottata non verrà conteggiata nella tariffa ma sarà gratis per far stare più tranquillo il cane).",
+    },
+    {
+        title: "Uscita",
+        description: "L'uscita è dalle 16:30 alle 18:00. Su richiesta può essere anticipata.",
+        longDescription: "I cani che escono dalla PENSIONE nella fascia oraria 16:30 - 18:00 (e non alla mattina) pagheranno la giornata di asilo. Nelle altre fasce di orario la struttura sarà chiusa per evitare caos durante le attività diurne e durante i vari inserimenti di cagnolini nuovi.",
     }
 ]

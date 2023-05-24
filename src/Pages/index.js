@@ -7,6 +7,8 @@ import Footer from '../components/Footer.jsx';
 import News from './News';
 import Login from './Login';
 import Dashboard from './Dashboard';
+import Rules from './Rules';
+import About from './About';
 
 export {
     Navbar,
@@ -18,4 +20,6 @@ export {
     News,
     Login,
     Dashboard,
+    Rules,
+    About
 }

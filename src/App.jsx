@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Navbar, Home, Servizi, Gallery, Contatti, Footer, News, Login, Dashboard, } from './Pages'
+import { Navbar, Home, Servizi, Gallery, Contatti, Footer, News, Login, Dashboard, Rules, About, } from './Pages'
 import { useUserContext } from './context/userContext';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import useWebSocket from 'react-use-websocket';
@@ -44,11 +44,13 @@ function App() {
             <>
               <Navbar />
               <Home />
-              <Gallery />
+              {/*<Gallery /> */}
+              <About />
               <MessageProvider value={{ message }}>
                 <News />
               </MessageProvider>
               <Servizi />
+              <Rules />
               <Contatti />
               <Footer />
             </>} />

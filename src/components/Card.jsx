@@ -44,7 +44,7 @@ export default function Example({ data }) {
                                 >
                                                                             <div>
                                             <span className="mt-2 text-sm"></span>
-                                            <p>Custom</p>
+                                            <p>Extra</p>
                                         </div>
                                 </Tooltip>
 
