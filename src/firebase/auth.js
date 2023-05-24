@@ -4,12 +4,12 @@ import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyB6HSmf_9vfwTyrlgaPmtJe5td6q3HIY2c",
-    authDomain: "boarding-kennels-backend.firebaseapp.com",
-    projectId: "boarding-kennels-backend",
-    storageBucket: "boarding-kennels-backend.appspot.com",
-    messagingSenderId: "331183307166",
-    appId: "1:331183307166:web:19b6a66e2360d1a6b77e8f"
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTHDOMAIN,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
+    appId: process.env.REACT_APP_APPID,
 };
 
 const app = initializeApp(firebaseConfig);
