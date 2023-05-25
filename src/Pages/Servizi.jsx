@@ -12,7 +12,7 @@ const Servizi = () => {
             <div className='mb-16 mt-8'>
                 <Accordation />
             </div>
-            <div className='flex lg:flex-row flex-col lg:items-start justify-center gap-16 mt-8 '>
+            <div className='flex lg:flex-row flex-col lg:items-start justify-center items-center gap-16 mt-8 '>
                 {
                     cards.map((card, index) => {
                         return (

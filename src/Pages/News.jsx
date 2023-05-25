@@ -15,7 +15,6 @@ const News = () => {
           ?.slice(0)
           .reverse()
           .map((item, i) => {
-            console.log(item);
             return (
               <div
                 key={i}

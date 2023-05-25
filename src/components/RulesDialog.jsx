@@ -23,7 +23,7 @@ export default function RulesDialog({data}) {
         animate={{
           mount: { scale: 1, y: 0 },
           unmount: { scale: 0.9, y: -100 },
-        }}
+        }} style={{ "min-width": "80%"}}
       >
         <DialogHeader>{data.title}</DialogHeader>
         <DialogBody divider>

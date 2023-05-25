@@ -6,5 +6,6 @@ import Popover from './Popover';
 import Accordation from './Accordation';
 import RulesDialog from './RulesDialog';
 import RulesCard from './RulesCard';
+import DashboardDialog from './DashboardDialog';
 
-export { Card, Footer, Form, Navbar, Popover, Accordation, RulesDialog, RulesCard}
+export { Card, Footer, Form, Navbar, Popover, Accordation, RulesDialog, RulesCard, DashboardDialog}

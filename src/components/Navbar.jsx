@@ -41,7 +41,7 @@ export default function MyNavbar() {
 
     return (
         <>
-            <Navbar className="sm:px-16 px-6 sm:py-16 py-4 max-w-full mx-auto sticky inset-0 z-10 h-max rounded-md lg:px-8 lg:py-4 shadow-none">
+            <Navbar className="sm:px-16 px-6 py-4 max-w-full mx-auto sticky inset-0 z-10 h-max rounded-none lg:px-8 lg:py-4 shadow-none">
                 <div className="max-w-7xl mx-auto flex items-center justify-between text-blue-gray-900">
                     <div className="flex gap-2 justify-center text-center mr-4 cursor-pointer" onClick={() => {
                         window.scrollTo(0, 0);

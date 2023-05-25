@@ -33,8 +33,8 @@ const Login = () => {
       </Typography>
       <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
         <div className="mb-4 flex flex-col gap-6">
-          <Input size="lg" label="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-          <Input type="password" size="lg" label="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <Input  type="email" size="lg" label="Email" value={email} onChange={(e) => setEmail(e.target.value)} autoComplete='email' />
+          <Input type="password" size="lg" label="Password" value={password} onChange={(e) => setPassword(e.target.value)} autoComplete='current-password' />
         </div>
         <Button className="mt-6" fullWidth onClick={handleLogin}>
           Accedi

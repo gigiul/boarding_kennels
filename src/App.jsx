@@ -9,7 +9,7 @@ import { MessageProvider } from './context/newsContext';
 function App() {
 
   const { loading, error, user } = useUserContext();
-  const socketUrl = 'wss://boarding-kennels-backend.onrender.com';
+  const socketUrl = process.env.REACT_APP_WS_URL;
 
   const [message, setMessage] = useState(null);
 
@@ -18,18 +18,14 @@ function App() {
     sendJsonMessage,
     lastMessage,
     lastJsonMessage,
-    readyState,
-    getWebSocket,
   } = useWebSocket(socketUrl, {
     onOpen: () => console.log('opened'),
 /*     shouldReconnect: (closeEvent) => true,
  */  });
 
   useEffect(() => {
-    console.log("lastJsonMessage", lastJsonMessage)
     switch (lastJsonMessage?.type) {
       case "news":
-        console.log("Messagio ricevuto", typeof (lastJsonMessage?.payload))
         setMessage(lastJsonMessage?.payload)
         break;
       default:
@@ -55,11 +51,14 @@ function App() {
               <Footer />
             </>} />
           <Route path='/login' element={
-            <div className='flex flex-col justify-center items-center h-screen'>
+            <div className=''>
+              <div>
+                
+              </div>
               {error && <p className='bg-red-600/80 font-semibold animate-pulse p-2 rounded-md'>Email o Password sbagliate</p>}
-              {loading ? <p>Loading...</p> : (user ?
+              {loading ? <p>Loading...</p> : (!user ?
                 (<MessageProvider value={{ message }}>
-                  <Dashboard />
+                  <Dashboard sendJsonMessage={sendJsonMessage} />
                 </MessageProvider>)
                 : <Login />)}
             </div>

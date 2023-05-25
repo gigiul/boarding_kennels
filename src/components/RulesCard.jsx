@@ -8,7 +8,6 @@ import {
   import { RulesDialog } from "./";
    
   export default function RulesCard({data}) {
-    console.log(data)
     return (
       <Card className="mt-6 md:w-96 border-2 shadow-md max-w-88">
         <CardBody className="h-40">

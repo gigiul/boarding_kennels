@@ -4,7 +4,7 @@ import { navbar } from "../constants";
 export default function SimpleFooter() {
   return (
     <footer className="mt-4 flex md:w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-between">
-      <div className="md:text-start text-center">
+      <div className="md:text-start text-center ml-4">
         <Typography color="blue-gray" className="font-normal lg:ml-8">
           &copy; 2023 La casetta nel verde
         </Typography>
@@ -12,7 +12,7 @@ export default function SimpleFooter() {
         <Typography color="blue-gray" className="font-normal lg:ml-8">
           +39 3513274898
         </Typography>
-        <Typography color="blue-gray" className="font-normal lg:ml-8">
+        <Typography color="blue-gray" className="font-normal lg:ml-8 italic">
           <a href="mailto:lacasettanelverde2023@gmail.com">lacasettanelverde2023@gmail.com</a>
         </Typography>
         </div>

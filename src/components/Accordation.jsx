@@ -41,7 +41,7 @@ export default function Accordation() {
                     <AccordionHeader onClick={() => handleOpen(i)} className='text-black'>
                         {service.title}
                     </AccordionHeader>
-                    <AccordionBody className='text-xl text-start'>
+                    <AccordionBody className='text-xl text-start' >
                         {service.description}
                     </AccordionBody>
                 </Accordion>
