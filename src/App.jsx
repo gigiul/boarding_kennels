@@ -56,7 +56,7 @@ function App() {
                 
               </div>
               {error && <p className='bg-red-600/80 font-semibold animate-pulse p-2 rounded-md'>Email o Password sbagliate</p>}
-              {loading ? <p>Loading...</p> : (!user ?
+              {loading ? <p>Loading...</p> : (user ?
                 (<MessageProvider value={{ message }}>
                   <Dashboard sendJsonMessage={sendJsonMessage} />
                 </MessageProvider>)
