@@ -18,7 +18,7 @@ const Rules = () => {
                     })
                 }
             </div>
-            <p className='mt-4 text-gray-400 italic'>Per qualsiasi problematica relativa all'orario, se possibile, cercherò di trovare un punto di incontro in modo tale da agevolare al meglio l'organizzazione della vostra giornata.</p>
+            <p className='mt-4 text-gray-800 italic'>Per qualsiasi problematica relativa all'orario, se possibile, cercherò di trovare un punto di incontro in modo tale da agevolare al meglio l'organizzazione della vostra giornata.</p>
         </div>
     )
 }

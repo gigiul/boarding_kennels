@@ -38,11 +38,11 @@ export const navbar = [
 /*     {
         id: 'gallery',
         title: 'Galleria',
-    }, */
+    }, 
     {
         id: 'news',
         title: 'News',
-    },
+    }, */
     {
         id: 'services',
         title: 'Servizi',
@@ -58,7 +58,7 @@ export const navbar = [
 ]
 
 export const cards = [
-    {
+    /* {
         title: "Pensione Completa",
         price: {
             value: 30,
@@ -99,7 +99,36 @@ export const cards = [
             1: "Passeggiata su richiesta 5€",
             2: "Somministrazione Farmaci/Cure 1/5€",
         }
-    }
+    } */,
+    {
+        title: "Asilo (solo giornata. Chiuso sabato e domenica)",
+        price: {
+            value: 17,
+            time: "gg"
+        },
+        services: {
+            1: "Al posto di chiedere ad un dog sitter di portare fuori il vostro cucciolo per una passeggiatina di quaranta minuti e poi rilasciarlo a casa da solo potrete regalare al vostro cane un'intera giornata di allegria e riprenderlo la sera soddisfatto e stanco.I cani avranno a disposizione una saletta interna riscaldata in inverno e refrigerata inestate che verrà impiegata come luogo comune di interazione e svago, inoltre sarà munitadi divanetti e comfort per i più pigri. La casetta è dotata di un'uscita autonoma (porticina basculante) che porta ad un giardinototalmente recintato e sicuro in modo tale da far sentire a proprio agio il cagnolino elasciare a lui la scelta se stare all'interno o all'esterno come in una qualsiasi abitazionecasalinga.In base al periodo e alla stagione verranno attuati progetti e attività diverse.Durante il periodo estivo verranno fatte molte attività diurne nel giardino (giochi d'acquacon piscinetta, lancio delle palline, tiro della corda, ricerca dei premi con l'olfatto ecc..)tutte quotidianamente documentate sulla pagina instagram o, su richiesta, privatamente(foto, video o videochiamate)."
+        }
+
+    },
+    {
+        title: "Pensione (giornata precedente + notte)",
+        price: {
+            value: 30,
+            time: "gg"
+        },
+        services: {
+            1: "Riscaldamento in inverno e, se necessario,condizionatore nei mesi più caldi",
+            2: "Sorveglianza con servizio di telecamere collegate al mio cellulare e opzionale mio ernottamento nella stanza vicina (in modo tale da poter intervenire se ci sono problematiche o difficili inserimenti).",
+            3: "Possibilità di uscita autonoma attraverso una porticina basculante in una area completamente recintata e coperta non dovendo così trattenere i bisogni durante la notte",
+            5: "Fornitura di giochi antistress prima della notte",
+            6: "Oltre alla sua cuccia, se richiesto, verranno messi a disposizione materassi e cuscinoni (debitamente igienizzati) in modo tale da offrirgli più comfort possibile",
+            7: "Essendo una struttura immersa nel verde e nella natura, su richiesta, potrà essere portato a spasso il vostro cucciolo (passeggiate di gruppo o singole). Anche la passeggiata verrà documentata in modo tale da farvi sentire con loro anche quando sarete lontani.",
+            8: "PASSEGGIATA su richiesta 5 euro (documentata con foto o video o videochiamata), ogni due passeggiate una è gratis. SOMMINISTRAZIONE FARMACI/CURE (indicati dal proprietario) da 1 a 5 euro in base alla casistica"
+        }
+
+    },
+
 ]
 
 export const services = [
@@ -124,7 +153,7 @@ export const services = [
         description: "Ogni cane avrà un proprio armadietto e avrà la possibilità di portare oggetti personali che lo aiuteranno nell'ambientamento e fungeranno da punti di riferimento (ciotole, pupazzi, giochi, indumenti del proprio padrone per rassicurarsi sentendo l'odore, copertine..ecc)",
     },
     {
-        title: "Documentazione giornaliera e aggiornamenti su Instagram per seguirti",
+        title: "Documentazione giornaliera e aggiornamenti su Instagram per seguirlo",
         description: " Su richiesta del proprietario verrà offerto un servizio di documentazione quotidiana con resoconto giornata, video, foto o videochiamate. Inoltre la pagina instagram sarà sempre aggiornata con nuove foto e storie in modo tale da seguire le attività dei vostri piccoli.",
     },
     {
@@ -152,17 +181,17 @@ export const services = [
 export const rules = [
     {
         title: "Regole generali",
-        description: "È richiesto il proprio cibo. Obbligatorii microchip e vaccinazioni. Trattamento antiparassitario.",
+        description: "Ogni cane ha la propria tipologia di alimentazione quindi sarà richiesto il proprio cibo. Ogni cane dovrà essere in possesso del microchip e libretto delle vaccinazioni obbligatorie in vigore (e non scadute). Ogni cane, principalmente nella stagione estiva, dovrà essere trattato con antiparassitario.",
         longDescription: "Ogni cane ha la propria tipologia di alimentazione quindi sarà richiesto il proprio cibo. Ogni cane dovrà essere in possesso del microchip e libretto delle vaccinazioni obbligatorie in vigore (e non scadute). Ogni cane, principalmente nella stagione estiva, dovrà essere trattato con antiparassitario."
     },
     {
         title: "Entrata",
-        description: "L'ingresso è consentito dalle 7:30 alle 9:30. L'orario può essere flessibile su richiesta.",
+        description: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina (la giornata di asilo precedente alla prima nottata non verrà conteggiata nella tariffa ma sarà gratis per far stare più tranquillo il cane)",
         longDescription: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina (la giornata di asilo precedente alla prima nottata non verrà conteggiata nella tariffa ma sarà gratis per far stare più tranquillo il cane).",
     },
     {
         title: "Uscita",
-        description: "L'uscita è dalle 16:30 alle 18:00. Su richiesta può essere anticipata.",
+        description: "L'uscita è dalle 16:30 alle 18:00. Su richiesta può essere anticipata.I cani che escono dalla PENSIONE nella fascia oraria 16:30 - 18:00 (e non alla mattina) pagheranno la giornata di asilo. Nelle altre fasce di orario la struttura sarà chiusa per evitare caos durante le attività diurne e durante i vari inserimenti di cagnolini nuovi.",
         longDescription: "I cani che escono dalla PENSIONE nella fascia oraria 16:30 - 18:00 (e non alla mattina) pagheranno la giornata di asilo. Nelle altre fasce di orario la struttura sarà chiusa per evitare caos durante le attività diurne e durante i vari inserimenti di cagnolini nuovi.",
     }
 ]

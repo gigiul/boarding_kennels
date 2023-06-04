@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Navbar, Home, Servizi, Gallery, Contatti, Footer, News, Login, Dashboard, Rules, About, } from './Pages'
+import { Alert, Whatsapp } from './components'
 import { useUserContext } from './context/userContext';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import useWebSocket from 'react-use-websocket';
@@ -39,18 +40,20 @@ function App() {
           <Route path='/' element={
             <>
               <Navbar />
+              <Alert />
+              <Whatsapp />
               <Home />
               {/*<Gallery /> */}
               <About />
-              <MessageProvider value={{ message }}>
+{/*           <MessageProvider value={{ message }}>
                 <News />
-              </MessageProvider>
+              </MessageProvider> */}
               <Servizi />
               <Rules />
               <Contatti />
               <Footer />
             </>} />
-          <Route path='/login' element={
+{/*           <Route path='/login' element={
             <div className=''>
               <div>
                 
@@ -62,7 +65,7 @@ function App() {
                 </MessageProvider>)
                 : <Login />)}
             </div>
-          } />
+          } /> */}
         </Routes>
       </BrowserRouter>
     </div>

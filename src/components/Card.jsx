@@ -13,7 +13,7 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 export default function Example({ data }) {
 
     return (
-        <Card color="blue" variant="gradient" className="w-full max-w-[24rem] lg:h-[54rem] p-4 shadow-2xl" >
+        <Card color="blue" variant="gradient" className="w-full md:max-w-[36rem] max-w-[24rem] lg:h-[68rem] p-4 shadow-2xl" >
             <CardHeader
                 floated={false}
                 shadow={false}
@@ -66,6 +66,7 @@ export default function Example({ data }) {
                         </li>
                     ))}
                 </ul>
+                
 
             </CardBody>
             <CardFooter className="mt-12 p-0">

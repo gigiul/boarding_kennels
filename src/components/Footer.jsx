@@ -10,7 +10,14 @@ export default function SimpleFooter() {
         </Typography>
         <div>
         <Typography color="blue-gray" className="font-normal lg:ml-8">
-          +39 3513274898
+        <img src="/phoneIcon.png" className="w-6 h-6 inline-block" />
+           +39 3513274898
+        </Typography>
+        <Typography color="blue-gray" className="font-normal lg:ml-8 italic">
+          <a href="https://www.instagram.com/lacasettanelverde2023/" target="_blank">
+            <img src="/instragram.png" className="w-6 h-6 inline-block" />
+             @lacasettanelverde2023
+          </a>
         </Typography>
         <Typography color="blue-gray" className="font-normal lg:ml-8 italic">
           <a href="mailto:lacasettanelverde2023@gmail.com">lacasettanelverde2023@gmail.com</a>
