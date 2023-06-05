@@ -7,7 +7,7 @@ const News = () => {
 
   return (
     <div className="text-center">
-      <h1 className="text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-r from-amber-700 to-blue-600 inline-block">
+      <h1 className="text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-b from-amber-700 to-blue-600 inline-block">
         News
       </h1>
       <div className="flex flex-wrap gap-4 justify-center mt-8">

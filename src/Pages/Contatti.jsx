@@ -6,7 +6,7 @@ const Contatti = () => {
     return (
         <div className='drop-shadow-2xl'>
             <div className='flex flex-col justify-center items-center'>
-                <h1 className="mb-12 text-6xl text-center font-bold text-transparent  drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-r from-amber-700 to-blue-600 inline-block">Contatti</h1>
+                <h1 className="mb-12 text-6xl text-center font-bold text-transparent  drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-b from-green-700 to-green-400 inline-block">Contatti</h1>
                 <div className='flex items-center xl:flex-row flex-col gap-4'>
                     <div className='text-center flex flex-col gap-1 items-center'>
                         <h2 className='text-xl font-semibold text-center'>Via Maddalene 175 (Vicenza - Maddalene vecchie)</h2>

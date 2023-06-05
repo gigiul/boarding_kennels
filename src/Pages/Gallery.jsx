@@ -8,7 +8,7 @@ import ImageGallery from 'react-image-gallery';
 const Gallery = () => {
   return (
     <div className='lg:mx-0 mx-4 text-center  '>
-      <h1 className="text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-r from-amber-700 to-blue-600 inline-block">Galleria</h1>
+      <h1 className="text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-b from-green-700 to-green-400 inline-block">Galleria</h1>
       <div className='mt-8'>
         <ImageGallery items={gallery} autoPlay={true} />
         <div className='mt-8'>

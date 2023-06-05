@@ -13,7 +13,7 @@ import { CheckIcon } from "@heroicons/react/24/outline";
 export default function Example({ data }) {
 
     return (
-        <Card color="blue" variant="gradient" className="w-full md:max-w-[36rem] max-w-[24rem] lg:h-[68rem] p-4 shadow-2xl" >
+        <Card color="green" variant="gradient" className="w-full md:max-w-[36rem] max-w-[24rem] lg:h-[68rem] p-4 shadow-2xl" >
             <CardHeader
                 floated={false}
                 shadow={false}
@@ -42,10 +42,10 @@ export default function Example({ data }) {
                                         unmount: { scale: 0, y: 25 },
                                     }}
                                 >
-                                                                            <div>
-                                            <span className="mt-2 text-sm"></span>
-                                            <p>Extra</p>
-                                        </div>
+                                    <div>
+                                        <span className="mt-2 text-sm"></span>
+                                        <p>Extra</p>
+                                    </div>
                                 </Tooltip>
 
                             </>
@@ -66,19 +66,21 @@ export default function Example({ data }) {
                         </li>
                     ))}
                 </ul>
-                
+
 
             </CardBody>
             <CardFooter className="mt-12 p-0">
-                <Button
-                    size="lg"
-                    color="white"
-                    className="text-blue-500 hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
-                    ripple={false}
-                    fullWidth={true}
-                >
-                    Prenota
-                </Button>
+                <a href="#contact">
+                    <Button
+                        size="lg"
+                        color="white"
+                        className="text-blue-500 hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
+                        ripple={false}
+                        fullWidth={true}
+                    >
+                        Prenota
+                    </Button>
+                </a>
             </CardFooter>
         </Card>
     );

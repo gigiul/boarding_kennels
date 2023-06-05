@@ -6,7 +6,7 @@ import { rules } from '../constants'
 const Rules = () => {
     return (
         <div className='text-center'>
-            <h1 className="p-2 text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-r from-amber-700 to-blue-600 inline-block">
+            <h1 className="p-2 text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-b from-green-700 to-green-400 inline-block">
                 Regole & Orari
             </h1>
             <div className='flex gap-2 md:flex-row flex-col justify-center items-center '>

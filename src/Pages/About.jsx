@@ -5,7 +5,7 @@ import AboutImage from '../assets/about_image.jpeg'
 const About = () => {
     return (
         <div className='text-center'>
-            <h1 className="text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-r from-amber-700 to-blue-600 inline-block">
+            <h1 className="text-6xl text-center font-bold text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] tracking-wide bg-clip-text bg-gradient-to-b from-green-700 to-green-400 inline-block">
                 Chi sono
             </h1>
             <h2 className='mt-8 text-2xl italic font-semibold'>Sono te, quando tu non ci puoi essere 🦮🐾</h2>
