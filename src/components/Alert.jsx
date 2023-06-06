@@ -16,6 +16,7 @@ export default function Example() {
                 <ul class="mt-2 ml-2 list-disc list-inside">
                     <li><span className="font-semibold">Sconto del 20 % </span>se porti in PENSIONE due cani intestati a te</li>
                     <li><span className="font-bold">Sconto del 30 %</span> se porti in PENSIONE tre cani intestati a te</li>
+                    <li><span className="font-bold">Sconto del 10 %</span> sul totale per soggiorni pari o superiori alle DUE settimane</li>
                 </ul>
             </Alert>
         </Fragment>
