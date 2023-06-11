@@ -134,7 +134,7 @@ export const cards = [
 export const services = [
     {
         title: "Personalizziamo l'attività per ogni cane: giochi mentali o sportivi, la scelta è sua!",
-        description: "I cani non verranno chiusi ore e ore in dei box permettendogli soltanto una passeggiatina di cinque minuti ma verranno accolti in un ambiente comune con attività scelte in base alle abituditi: se un cane predilige giochi mentali (ricerca del gioco nascosto in giardino, 'rompicapo' con gratificazione finale, esercizi base di dog obedience..ecc..) verrà intrattenuto in modo diverso dal cane che predilige lo sport ( paseggiate nei campi circostanti, rincorrere palline o nastri, tira e molla ecc..)"
+        description: "I cani non verranno chiusi ore e ore in dei box permettendo loro soltanto una passeggiatina di cinque minuti ma verranno accolti in un ambiente comune con attività scelte in base alle abituditi: se un cane predilige giochi mentali (ricerca del gioco nascosto in giardino, 'rompicapo' con gratificazione finale, esercizi base di dog obedience..ecc..) verrà intrattenuto in modo diverso dal cane che predilige lo sport ( paseggiate nei campi circostanti, rincorrere palline o nastri, tira e molla ecc..)"
     },
     {
         title: "Una casetta accogliente per il tuo amico a quattro zampe",
@@ -142,11 +142,11 @@ export const services = [
     },
     {
         title: "Notte tranquilla e pasti separati: comfort senza sentirsi rinchiusi",
-        description: "Durante la notte e durante la somministrazione dei pasti i cani verranno divisi con dei divisori in plexiglass in modo tale da vedere l'ambiente circostante e non sentirsi tutt'a un tratto rinchiusi e sperduti. Sempre durante la notte i cani potranno uscire autonomamente attraverso una porticina basculante in una area privata completamente recintata e coperta in modo tale da non dover trattenere i bisogni."
+        description: "Durante la notte e durante la somministrazione dei pasti i cani verranno divisi con dei divisori in plexiglass, in modo tale da vedere l'ambiente circostante e non sentirsi tutt'a un tratto rinchiusi e sperduti. Sempre durante la notte i cani potranno uscire autonomamente attraverso una porticina basculante in un' area privata completamente recintata e coperta, in modo tale da non dover trattenere i bisogni."
     },
     {
         title: "Spazio privato per cani che preferiscono la solitudine",
-        description: "Ovviamente se il cane purtroppo è aggressivo con gli altri o si sente più a suo agio in un ambiente senza altri cani potrà usufruire di un luogo privato e personalizzato, con i suoi giochi e la sua cuccia (cameretta con visuale nella saletta comune, il cagnolino non è completamente isolato)."
+        description: "Ovviamente, se il cane purtroppo è aggressivo con gli altri o si sente più a suo agio in un ambiente senza altri cani, potrà usufruire di un luogo privato e personalizzato, con i suoi giochi e la sua cuccia (cameretta con visuale nella saletta comune, il cagnolino non è completamente isolato)."
     },
     {
         title: "Un armadietto personale per oggetti amati e familiari",
@@ -154,7 +154,7 @@ export const services = [
     },
     {
         title: "Documentazione giornaliera e aggiornamenti su Instagram per seguirlo",
-        description: " Su richiesta del proprietario verrà offerto un servizio di documentazione quotidiana con resoconto giornata, video, foto o videochiamate. Inoltre la pagina instagram sarà sempre aggiornata con nuove foto e storie in modo tale da seguire le attività dei vostri piccoli.",
+        description: " Su richiesta del proprietario verrà offerto un servizio di documentazione quotidiana con resoconto giornata, video, foto o videochiamate. Inoltre, la pagina Instagram sarà sempre aggiornata con nuove foto e storie in modo tale da seguire le attività dei vostri piccoli.",
     },
     {
         title: "Assistenza e somministrazione di medicinali personalizzati",
@@ -170,7 +170,7 @@ export const services = [
     },
     {
         title: "Il servizio di pulizia per far tornare il tuo amico a casa fresco e pulito",
-        description: "Se necessario (dopo aver fatto giochi all'esterno, passeggiate, post piscinetta estiva) verrà offerto un servizio di bagnetto casalingo o pulizia generale prima di essere riconsegnato al proprietario."
+        description: "Se necessario (dopo aver fatto giochi all'esterno, passeggiate, post piscinetta estiva), verrà offerto un servizio di bagnetto casalingo o pulizia generale prima di essere riconsegnato al proprietario."
     },
     {
         title: "La casetta nel verde, una struttura sicura e regolamentata per la tranquillità di tutti",

@@ -21,9 +21,9 @@ const About = () => {
                 <div className='text-start flex justify-start'>
                     <p className='italic md:text-xl text-sm mt-4 '>
                         <span className='font-semibold'>Ti rattrista lasciare solo il tuo cucciolo mentre sei a lavoro? </span>
-                        Vuoi regalargli una giornata di divertimento e socializzazzione con altri cagnolini mentre tu ti rilassi o vai in vacanza?
+                        Vuoi regalargli una giornata di divertimento e socializzazione con altri cagnolini mentre tu ti rilassi o vai in vacanza?
                         Ecco a voi la soluzione : <br /><span className='font-bold'>Asilo e pensione per cani che vivono in casa !</span>
-                        <br />Offrirò ai vostri cagnolini un ambiente innovativo e sicuro, con tante attività diurne e comfort notturno.  Per questioni di spazio e benessere comune <span className='underline'>verranno ospitati principalmente cani di piccola e media taglia</span> mentre i più grandi solo su richiesta.
+                        <br />Offrirò ai vostri cagnolini un ambiente innovativo e sicuro, con tante attività diurne e comfort notturno.  Per questioni di spazio e benessere comune <span className='underline'>verranno ospitati principalmente cani di piccola e media taglia,</span> mentre i più grandi solo su richiesta.
                     </p>
                 </div>
             </div>
