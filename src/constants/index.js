@@ -1,27 +1,68 @@
+
 export const gallery = [
     {
-        original: 'https://images.unsplash.com/photo-1581888227599-779811939961?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWFsZSUyMGRvbWVzdGljb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
-        thumbnail: 'https://images.unsplash.com/photo-1581888227599-779811939961?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YW5pbWFsZSUyMGRvbWVzdGljb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+        original: '/gallery/1.jpg',
+        thumbnail: '/gallery/1.jpg',
     },
     {
-        original: 'https://images.unsplash.com/photo-1516222338250-863216ce01ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGFuaW1hbGUlMjBkb21lc3RpY298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
-        thumbnail: 'https://images.unsplash.com/photo-1516222338250-863216ce01ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGFuaW1hbGUlMjBkb21lc3RpY298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60',
+        original: '/gallery/2.jpg',
+        thumbnail: '/gallery/2.jpg',
     },
     {
-        original: 'https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHxhbmltYWxlJTIwZG9tZXN0aWNvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-        thumbnail: 'https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHxhbmltYWxlJTIwZG9tZXN0aWNvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        original: '/gallery/3.jpg',
+        thumbnail: '/gallery/3.jpg',
     },
     {
-        original: 'https://images.unsplash.com/photo-1527778676396-eceba283ddfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbmklMjBhbGwnYXBlcnRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
-        thumbnail: 'https://images.unsplash.com/photo-1527778676396-eceba283ddfa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNhbmklMjBhbGwnYXBlcnRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+        original: '/gallery/16.png',
+        thumbnail: '/gallery/16.png',
     },
     {
-        original: 'https://media.istockphoto.com/id/1207992654/it/foto/concetto-di-stagione-primaverile-con-cane-che-tiene-il-guinzaglio-in-bocca-invitando-a-fare.jpg?b=1&s=170667a&w=0&k=20&c=BwLMhxp2QwwIx6Z4KNg6fmCg80ZlQf9i2vn5QwZMxyM=',
-        thumbnail: 'https://media.istockphoto.com/id/1207992654/it/foto/concetto-di-stagione-primaverile-con-cane-che-tiene-il-guinzaglio-in-bocca-invitando-a-fare.jpg?b=1&s=170667a&w=0&k=20&c=BwLMhxp2QwwIx6Z4KNg6fmCg80ZlQf9i2vn5QwZMxyM=',
+        original: '/gallery/4.jpg',
+        thumbnail: '/gallery/4.jpg',
     },
     {
-        original: 'https://media.istockphoto.com/id/1164917271/it/foto/cane-che-gioca-a-fetch.jpg?b=1&s=170667a&w=0&k=20&c=WBd5l81jlr2vyMAdx08b2eAs1ec_7JmMdtoNYKJ_dPo=',
-        thumbnail: 'https://media.istockphoto.com/id/1164917271/it/foto/cane-che-gioca-a-fetch.jpg?b=1&s=170667a&w=0&k=20&c=WBd5l81jlr2vyMAdx08b2eAs1ec_7JmMdtoNYKJ_dPo=',
+        original: '/gallery/5.jpg',
+        thumbnail: '/gallery/5.jpg',
+    },
+    {
+        original: '/gallery/6.jpg',
+        thumbnail: '/gallery/6.jpg',
+    },
+    {
+        original: '/gallery/7.jpg',
+        thumbnail: '/gallery/7.jpg',
+    },
+    {
+        original: '/gallery/8.jpg',
+        thumbnail: '/gallery/8.jpg',
+    },
+    {
+        original: '/gallery/9.jpg',
+        thumbnail: '/gallery/9.jpg',
+    },
+    {
+        original: '/gallery/10.jpg',
+        thumbnail: '/gallery/10.jpg',
+    },
+    {
+        original: '/gallery/11.jpg',
+        thumbnail: '/gallery/11.jpg',
+    },
+    {
+        original: '/gallery/12.jpg',
+        thumbnail: '/gallery/12.jpg',
+    },
+    {
+        original: '/gallery/13.jpg',
+        thumbnail: '/gallery/13.jpg',
+    },
+    {
+        original: '/gallery/14.jpg',
+        thumbnail: '/gallery/14.jpg',
+    },
+    {
+        original: '/gallery/15.jpg',
+        thumbnail: '/gallery/15.jpg',
     },
 ];
 
@@ -35,11 +76,11 @@ export const navbar = [
         id:'about',
         title: 'Chi sono',
     },
-/*     {
+    {
         id: 'gallery',
         title: 'Galleria',
     }, 
-    {
+/*    {
         id: 'news',
         title: 'News',
     }, */

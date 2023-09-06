@@ -43,8 +43,8 @@ function App() {
               <Alert />
               <Whatsapp />
               <Home />
-              {/*<Gallery /> */}
               <About />
+              <Gallery />
 {/*           <MessageProvider value={{ message }}>
                 <News />
               </MessageProvider> */}
