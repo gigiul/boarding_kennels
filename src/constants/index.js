@@ -160,8 +160,8 @@ export const cards = [
         },
         services: {
             1: "Riscaldamento in inverno e, se necessario,condizionatore nei mesi più caldi",
-            2: "Sorveglianza con servizio di telecamere collegate al mio cellulare e opzionale mio ernottamento nella stanza vicina (in modo tale da poter intervenire se ci sono problematiche o difficili inserimenti).",
-            3: "Possibilità di uscita autonoma attraverso una porticina basculante in una area completamente recintata e coperta non dovendo così trattenere i bisogni durante la notte",
+            2: "Sorveglianza con servizio di telecamere collegate al mio cellulare e opzionale mio pernottamento nella stanza vicina (in modo tale da poter intervenire se ci sono problematiche o difficili inserimenti).",
+            3: "Possibilità di uscita autonoma attraverso una porticina basculante in una area completamente recintata e coperta non dovendo così trattenere i bisogni durante la notte (se richiesto dal proprietario).",
             5: "Fornitura di giochi antistress prima della notte",
             6: "Oltre alla sua cuccia, se richiesto, verranno messi a disposizione materassi e cuscinoni (debitamente igienizzati) in modo tale da offrirgli più comfort possibile",
             7: "Essendo una struttura immersa nel verde e nella natura, su richiesta, potrà essere portato a spasso il vostro cucciolo (passeggiate di gruppo o singole). Anche la passeggiata verrà documentata in modo tale da farvi sentire con loro anche quando sarete lontani.",
@@ -179,19 +179,19 @@ export const services = [
     },
     {
         title: "Una casetta accogliente per il tuo amico a quattro zampe",
-        description: " Infatti la struttura è predisposta come una casetta: c'è una saletta interna riscaldata in inverno e refrigerata in estate con un giardino totalmente recintato e sicuro in modo tale da far sentire a proprio agio il cagnolino e lasciare a lui la scelta se stare all'interno o all'esterno, come in una qualsiasi abitazione casalinga."
+        description: " Infatti la struttura è predisposta come una casetta: c'è una sala interna riscaldata in inverno e refrigerata in estate con un giardino totalmente recintato e sicuro in modo tale da far sentire a proprio agio il cagnolino e lasciare a lui la scelta se stare all'interno o all'esterno, come in una qualsiasi abitazione casalinga. La sala interna può essere divisa in vari settori in base alle simpatie/antipatie tra i cani. Così da poter garantire un soggiorno tranquillo anche tra cani \"aggressivi\"."
     },
     {
         title: "Notte tranquilla e pasti separati: comfort senza sentirsi rinchiusi",
-        description: "Durante la notte e durante la somministrazione dei pasti i cani verranno divisi con dei divisori in plexiglass, in modo tale da vedere l'ambiente circostante e non sentirsi tutt'a un tratto rinchiusi e sperduti. Sempre durante la notte i cani potranno uscire autonomamente attraverso una porticina basculante in un' area privata completamente recintata e coperta, in modo tale da non dover trattenere i bisogni."
+        description: "Durante la notte e durante la somministrazione dei pasti i cani verranno divisi con dei divisori in plexiglass, in modo tale da vedere l'ambiente circostante e non sentirsi tutt'a un tratto rinchiusi e sperduti. Sempre durante la notte i cani potranno uscire (se richiesto dal propietario) autonomamente attraverso una porticina basculante in un' area privata completamente recintata, in modo tale da non dover trattenere i bisogni."
     },
     {
         title: "Spazio privato per cani che preferiscono la solitudine",
         description: "Ovviamente, se il cane purtroppo è aggressivo con gli altri o si sente più a suo agio in un ambiente senza altri cani, potrà usufruire di un luogo privato e personalizzato, con i suoi giochi e la sua cuccia (cameretta con visuale nella saletta comune, il cagnolino non è completamente isolato)."
     },
     {
-        title: "Un armadietto personale per oggetti amati e familiari",
-        description: "Ogni cane avrà un proprio armadietto e avrà la possibilità di portare oggetti personali che lo aiuteranno nell'ambientamento e fungeranno da punti di riferimento (ciotole, pupazzi, giochi, indumenti del proprio padrone per rassicurarsi sentendo l'odore, copertine..ecc)",
+        title: "Oggetti personali",
+        description: "Ogni cane avrà la possibilità di portare oggetti personali che lo aiuteranno nell'ambientamento e fungeranno da punti di riferimento (ciotole, pupazzi, giochi, indumenti del proprio padrone per rassicurarsi sentendo l'odore, copertine..ecc)",
     },
     {
         title: "Documentazione giornaliera e aggiornamenti su Instagram per seguirlo",
@@ -227,12 +227,12 @@ export const rules = [
     },
     {
         title: "Entrata",
-        description: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina (la giornata di asilo precedente alla prima nottata non verrà conteggiata nella tariffa ma sarà gratis per far stare più tranquillo il cane)",
-        longDescription: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina (la giornata di asilo precedente alla prima nottata non verrà conteggiata nella tariffa ma sarà gratis per far stare più tranquillo il cane).",
+        description: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina.",
+        longDescription: "Per i cani che devono pernottare la prima volta in pensione o che faticano nell'inserimento è consigliabile consegnarli nella fascia oraria della mattina.",
     },
     {
         title: "Uscita",
-        description: "L'uscita è dalle 16:30 alle 18:00. Su richiesta può essere anticipata.I cani che escono dalla PENSIONE nella fascia oraria 16:30 - 18:00 (e non alla mattina) pagheranno la giornata di asilo. Nelle altre fasce di orario la struttura sarà chiusa per evitare caos durante le attività diurne e durante i vari inserimenti di cagnolini nuovi.",
-        longDescription: "I cani che escono dalla PENSIONE nella fascia oraria 16:30 - 18:00 (e non alla mattina) pagheranno la giornata di asilo. Nelle altre fasce di orario la struttura sarà chiusa per evitare caos durante le attività diurne e durante i vari inserimenti di cagnolini nuovi.",
+        description: "L'uscita è entro le 18:30. Ma ...",
+        longDescription: "L'uscita è entro le 18:30. Ma ...",
     }
 ]
