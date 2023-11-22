@@ -232,7 +232,7 @@ export const rules = [
     },
     {
         title: "Uscita",
-        description: "L'uscita è entro le 18:30. Ma ...",
-        longDescription: "L'uscita è entro le 18:30. Ma ...",
+        description: "L'uscita sarebbe entro le 18:30 ma per qualsiasi problematica relativa all'orario, se possibile, cercherò di trovare un punto di incontro in modo tale da agevolare al meglio l'organizzazione della vostra giornata. La tariffa potrebbe variare.",
+        longDescription: "L'uscita sarebbe entro le 18:30 ma per qualsiasi problematica relativa all'orario, se possibile, cercherò di trovare un punto di incontro in modo tale da agevolare al meglio l'organizzazione della vostra giornata. La tariffa potrebbe variare.",
     }
 ]
